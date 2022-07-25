@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.img1{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+.carousel-inner{
+    height: 500px;
+    width: 100%;
+}
+.header a{
+    margin-left: 10px;
+    padding: 10px;
+}
+.myh2
+{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    background: radial-gradient(rgb(199, 154, 154),rgb(102, 116, 102));
+}
+footer{
+    width: 100%;
+    
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.row1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col1:nth-child(2), .col1:nth-child(3){
+    flex-basis: 15%;
+}
+.logo{
+    width: 60px;
+    margin-bottom: 30px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .fa{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa{
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icon .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
+.underline{
+    width: 70%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    .col1{
+        flex-basis: 100%;
+       
+    }
+    .col1:nth-child(2), .col1:nth-child(3){
+        flex-basis: 100%;
+    }
+}
+.section1{
+    width: 100%;
+}
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.container1 .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container1 .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #88941e;
+}
+.container1 .title h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #c4d156;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+h3{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+p{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.image-section{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.button{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.content{
+    float: left;
+    width: 55%;
+}
+.content .article h3{
+    color: #a3a3a3;
+    font-size: 17px;
+}
+.content .article p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#333;
+}
+.content .article .button{
+    margin-top: 35px;
+}
+.content .article .button a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #88941e;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.content .article .button a:hover{
+    color: #fff;
+    background-color: #f28f92;
+    transition: 1s ease;
+}
+.container .social{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.social{
+    margin-left: 700px;
+    margin-right: 700px;
+    
+}
+
+.social .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f28f92;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+@media screen and (max-width: 768px){
+    .section .container1{
+        width: 80%;
+        display: block;
+        margin: auto
+    }
+    .content{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 50%;
+        margin-top: 50px;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .container1 .title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .container1 .article .button a{
+            padding: 5px 15px;
+            font-size: 16px;
+    } 
+    .container5{
+       align-items: center;
+    }
+}    
+    .container6{
+        min-height: 100vh;
+        background: #08071d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("bg.webp") no-repeat center center/cover;
+    }
+    .container6 form{
+        width: 670px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+        border-radius: 15px;
+        background: rgba(255,255,255,0.1);
+        backdrop-filter: blur(10px);
+        flex-wrap: wrap;
+    }
+    .container6 form h1{
+        color: #fff;
+        font-weight: 500;
+        margin-top: 20px;
+        width: 500px;
+        text-align: center;
+
+    }
+    .container6 form input{
+        width: 290px;
+        height: 40px;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        margin-bottom: 10px;
+        background: none;
+        border-bottom: 2px solid #fff;
+    }
+    .container6 form input::placeholder{
+        color: #ddd;
+    }
+    .container6 form #lastname,
+    .container6 form #mobile{
+        margin-left: 20px;
+    }
+    .container6 form h4{
+        color: #fff;
+        font-weight: 300;
+        width: 600px;
+        margin-top: 20px;
+    }
+    .container6 form textarea{
+        background: none;
+        border: none;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 10px;
+        outline: none;
+        min-width: 600px;
+        max-width: 600px;
+        min-height: 80px;
+        max-height: 80px;
+    }
+    textarea::-webkit-scrollbar{
+        width: 1em;
+    }
+    textarea::-webkit-scrollbar-thumb{
+        background-color: rgba(194,194,194,0.713);
+    }
+    .container6 form #button{
+        border: none;
+        background: #fff;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #333;
+        width: 100px;
+        padding: 0;
+        margin-right: 500px;
+        margin-bottom: 30px;
+        transform: 0.3s;
+    }
+    .container6 form #button:hover{
+        opacity: 0.7;
+    }
+
+    
+    body {
+        background: #2c2c2c;
+        font-family:"Raleway";
+    }
+    .form {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:300px;
+        height:250px;
+        padding:10px;
+    } 
+    .form .form-header {
+        height:30px;
+        display:flex;
+        align-items:center;
+        text-align:center;
+    }
+    .form .form-header > div {
+        width:calc(100% / 3);
+        color:#ddd;
+        font-size:18px;
+        font-weight:600;
+        cursor:pointer;
+    }
+    .form.signup .form-header div.show-signup {
+        color:#f1575b;
+    }
+    .form.signin .form-header div.show-signin {
+        color:#f1575b;
+    }
+    .form.reset .form-header div.show-reset {
+        color:#f1575b;
+    }
+    .form .form-elements {
+        margin-top:15px;
+    }
+    .form .form-elements .form-element {
+        height:50px;
+        opacity:1;
+        overflow:hidden;
+        transition:all 500ms ease-in-out;
+    }
+    .form .form-elements input {
+        width:100%;
+        padding:10px;
+        font-size:16px;
+        margin:5px 0px;
+        border-radius:10px;
+        box-sizing:border-box;
+        border:1px solid #222;
+        background:#f5f5f5;
+    }
+    .form .form-elements button {
+        width:100%;
+        padding:10px;
+        font-size:16px;
+        font-weight:600;
+        margin-top:5px;
+        border-radius:10px;
+        background:#f1575b;
+        color:#f5f5f5;
+        cursor:pointer;
+        border:none;
+        outline:none;
+    }
+    .form .arrow {
+        position:absolute;
+        top:51px;
+        width:0;
+        height:0;
+        border-left:10px solid transparent;
+        border-right:10px solid transparent;
+        border-bottom:10px solid #f5f5f5;
+    }
+    .form.signup .arrow {
+        left:calc(calc(100% / 3) / 2);
+    }
+    .form.signin .arrow {
+        left:calc(calc(100% / 3) + calc(calc(100% / 3) / 2.2));
+    }
+    .form.reset .arrow {
+        left:calc(calc(calc(100% / 3) * 2) + calc(calc(100% / 3) / 2.3));
+    }
+    .form.signin .form-elements > div:nth-child(3) {
+        height:0px;
+        opacity:0;
+    }
+    .form.reset .form-elements > div:nth-child(2),
+    .form.reset .form-elements > div:nth-child(3) {
+        height:0px;
+        opacity:0;
+    }
